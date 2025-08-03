@@ -9,7 +9,7 @@
       margin: 0;
       padding: 0;
       font-family: 'Poppins', sans-serif;
-      background-color: #f4ede4;
+      background-color: #f3efe9;
       color: #1a1a1a;
       display: flex;
       flex-direction: column;
@@ -23,15 +23,18 @@
       height: 120px;
       border-radius: 50%;
       object-fit: cover;
+      border: 3px solid #e4d2bc;
+      box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
       margin-bottom: 15px;
     }
     .username {
-      font-size: 26px;
-      font-weight: 600;
+      font-size: 28px;
+      font-weight: 700;
+      margin-bottom: 5px;
     }
     .bio {
       font-size: 15px;
-      color: #333;
+      color: #555;
       margin-bottom: 30px;
     }
     .social-icons {
@@ -40,10 +43,13 @@
       margin-bottom: 30px;
       justify-content: center;
     }
-    .social-icons a {
-      color: #1a1a1a;
-      font-size: 24px;
-      text-decoration: none;
+    .social-icons a img {
+      width: 30px;
+      height: 30px;
+      transition: transform 0.2s ease;
+    }
+    .social-icons a img:hover {
+      transform: scale(1.2);
     }
     .button {
       background-color: #fff;
@@ -60,11 +66,12 @@
       gap: 15px;
       border: none;
       font-weight: 500;
-      box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.08);
+      box-shadow: 0px 3px 10px rgba(0, 0, 0, 0.08);
+      transition: all 0.2s ease;
     }
     .button:hover {
-      background-color: #f0e8dc;
-      transform: scale(1.01);
+      background-color: #ece1d5;
+      transform: translateY(-2px);
     }
     .button img {
       width: 36px;
@@ -75,17 +82,17 @@
     footer {
       margin-top: 50px;
       font-size: 13px;
-      color: #777;
+      color: #999;
     }
   </style>
 </head>
 <body>  <img src="https://i.ibb.co/RGpfhDDS/IMG-20250801-180927.jpg" alt="Profile" class="profile-img" />
   <div class="username">WeSt</div>
   <div class="bio">Hi, here is all my links!</div>  <div class="social-icons">
-    <a href="#"><span>https://i.ibb.co/RGpfhDDS/IMG-20250801-180927.jpg</span></a>
-    <a href="#"><span>🎥</span></a>
-    <a href="#"><span>🎧</span></a>
-  </div><a href="#" class="button"><img src="https://i.ibb.co/dDkNW4z/katana.jpg" alt="Anime Katanas"> Anime katanas</a> <a href="#" class="button"><img src="https://i.ibb.co/5R4w4x5/discord.jpg" alt="Discord"> Discord server</a> <a href="#" class="button">TikTok</a> <a href="#" class="button"><img src="https://i.ibb.co/RGpfhDDS/IMG-20250801-180927.jpg" alt="West"> West</a>
+    <a href="#"><img src="https://i.ibb.co/hRtj8HL1/204d853d575cfe1cb606bd06ea84e7fb.jpg" alt="Instagram"></a>
+    <a href="#"><img src="https://i.ibb.co/8DRwZ3nP/65d87034750f1ab0d5673da59f2a7f32.jpg" alt="YouTube"></a>
+    <a href="#"><img src="https://i.ibb.co/mrcH4fTG/e8973595c97f11b2eaebd63e2d96a7d8.jpg" alt="TikTok"></a>
+  </div><a href="#" class="button"><img src="https://i.ibb.co/dDkNW4z/katana.jpg" alt="Anime Katanas"> Anime katanas</a> <a href="#" class="button"><img src="https://i.ibb.co/5R4w4x5/discord.jpg" alt="Discord"> Discord server</a> <a href="#" class="button"><img src="https://upload.wikimedia.org/wikipedia/commons/1/1b/TikTok_icon.png" alt="TikTok"> TikTok</a> <a href="#" class="button"><img src="https://i.ibb.co/RGpfhDDS/IMG-20250801-180927.jpg" alt="West"> West</a>
 
-  <footer>★ Join west_t1 on Linktree <br><br>Cookie Preferences &middot; Report &middot; Privacy</footer></body>
+  <footer> Join west_t1 on Linktree <br><br>Cookie Preferences &middot; Report &middot; Privacy</footer></body>
 </html>
